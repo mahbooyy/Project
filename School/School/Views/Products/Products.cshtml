@@ -1,0 +1,41 @@
+﻿@model School.Domain.ViewModels.LoginAndRegistration.ProductsPageViewModel
+@using School.Domain.Helpers
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Туры";
+}
+
+<div class="tour">
+    <div class="tour-header">
+        <h1>@Model.Name</h1>
+    </div>
+
+    <div class="tovar-details">
+        <div class="tovar-images">
+            <!-- Основное изображение -->
+            <img id="main-image" src="@Model.PathImage" alt="@Model.Name" class="main-image">
+
+            <!-- Миниатюры -->
+            <div class="thumbnail-container">
+                <img src="@Model.PathImage" alt="Thumbnail" class="thumbnail" onclick="changeImage(this)">
+
+                @foreach (var picture in Model.PictureProducts)
+                {
+                    <img src="@picture.PathImage" alt="Thumbnail" class="thumbnail" onclick="changeImage(this)">
+                }
+            </div>
+
+            <script>
+                function changeImage(thumbnail) {
+                    const mainImage = document.getElementById("main-image");
+                    mainImage.src = thumbnail.src;
+                }
+            </script>
+        </div>
+
+        <div class="tovar-info">
+            <h1>@Model.Name</h1>
+            <p class="description"><strong>Описание:</strong> @Model.Opisanie</p>
+        </div>
+    </div>
+</div>

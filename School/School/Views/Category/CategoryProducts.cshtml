@@ -1,0 +1,31 @@
+﻿@model List<School.Domain.ViewModels.LoginAndRegistration.CategoryProductsViewModel>
+
+@{
+    Layout = "Layout2";
+    ViewData["Title"] = "Категории";
+}
+
+<div class="grid-container">
+    @if (Model != null && Model.Count > 0)
+    {
+        @foreach (var item in Model)
+        {
+            <div class="card-category" onclick="window.location.href = '@Url.Action("ListOfProducts","Products", new {Id = item.Id})'">
+                <div class="card-overlay">
+                    <div class="card-title">@item.Name</div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p>Нет доступных категорий.</p>
+    }
+
+    @if (ViewData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @ViewData["ErrorMessage"]   
+        </div>
+    }
+</div>

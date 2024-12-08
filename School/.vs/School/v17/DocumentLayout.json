@@ -1,0 +1,878 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\School\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7903165-D2CD-4B0F-93F0-099C7C8A3A10}|Service\\Service.csproj|d:\\project\\school\\service\\realizations\\categoryproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7903165-D2CD-4B0F-93F0-099C7C8A3A10}|Service\\Service.csproj|solutionrelative:service\\realizations\\categoryproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7903165-D2CD-4B0F-93F0-099C7C8A3A10}|Service\\Service.csproj|d:\\project\\school\\service\\interface\\icategoryproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7903165-D2CD-4B0F-93F0-099C7C8A3A10}|Service\\Service.csproj|solutionrelative:service\\interface\\icategoryproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7903165-D2CD-4B0F-93F0-099C7C8A3A10}|Service\\Service.csproj|d:\\project\\school\\service\\appmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7903165-D2CD-4B0F-93F0-099C7C8A3A10}|Service\\Service.csproj|solutionrelative:service\\appmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C8CD5E-9D13-499E-87C5-B246DBD10630}|School.Domain\\School.Domain.csproj|d:\\project\\school\\school.domain\\viewmodels\\loginandregistration\\categoryproductsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C8CD5E-9D13-499E-87C5-B246DBD10630}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\viewmodels\\loginandregistration\\categoryproductsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C8CD5E-9D13-499E-87C5-B246DBD10630}|School.Domain\\School.Domain.csproj|d:\\project\\school\\school.domain\\modelsdb\\categorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C8CD5E-9D13-499E-87C5-B246DBD10630}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\modelsdb\\categorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\views\\category\\categoryproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\views\\category\\categoryproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C8CD5E-9D13-499E-87C5-B246DBD10630}|School.Domain\\School.Domain.csproj|d:\\project\\school\\school.domain\\viewmodels\\loginandregistration\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C8CD5E-9D13-499E-87C5-B246DBD10630}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\viewmodels\\loginandregistration\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\views\\shared\\layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\views\\shared\\layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\views\\shared\\layout3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\views\\shared\\layout3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\views\\shared\\layout4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\views\\shared\\layout4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\views\\shared\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\views\\shared\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\wwwroot\\js\\login_and_registration_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\wwwroot\\js\\login_and_registration_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\views\\shared\\_loginregistrationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\views\\shared\\_loginregistrationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\views\\shared\\_confirmemailpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\views\\shared\\_confirmemailpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mahboy\\.nuget\\packages\\system.formats.asn1\\8.0.1\\buildTransitive\\netcoreapp2.0\\System.Formats.Asn1.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mahboy\\.nuget\\packages\\system.text.encoding.codepages\\8.0.0\\buildTransitive\\netcoreapp2.0\\System.Text.Encoding.CodePages.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7903165-D2CD-4B0F-93F0-099C7C8A3A10}|Service\\Service.csproj|d:\\project\\school\\service\\realizations\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7903165-D2CD-4B0F-93F0-099C7C8A3A10}|Service\\Service.csproj|solutionrelative:service\\realizations\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mahboy\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.0\\buildTransitive\\netcoreapp2.0\\System.Security.Cryptography.Pkcs.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\views\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\views\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Privacy.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:School\\obj\\Debug\\net5.0\\Razor\\Views\\Privacy.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Index.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:School\\obj\\Debug\\net5.0\\Razor\\Views\\Index.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Error.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:School\\obj\\Debug\\net5.0\\Razor\\Views\\Error.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7903165-D2CD-4B0F-93F0-099C7C8A3A10}|Service\\Service.csproj|d:\\project\\school\\service\\realizations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7903165-D2CD-4B0F-93F0-099C7C8A3A10}|Service\\Service.csproj|solutionrelative:service\\realizations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7903165-D2CD-4B0F-93F0-099C7C8A3A10}|Service\\Service.csproj|d:\\project\\school\\service\\interface\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7903165-D2CD-4B0F-93F0-099C7C8A3A10}|Service\\Service.csproj|solutionrelative:service\\interface\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0933A924-1267-4D2E-8645-A2C91612C1A2}|School.DAL\\School.DAL.csproj|d:\\project\\school\\school.dal\\storage\\userstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0933A924-1267-4D2E-8645-A2C91612C1A2}|School.DAL\\School.DAL.csproj|solutionrelative:school.dal\\storage\\userstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0933A924-1267-4D2E-8645-A2C91612C1A2}|School.DAL\\School.DAL.csproj|d:\\project\\school\\school.dal\\storage\\requeststorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0933A924-1267-4D2E-8645-A2C91612C1A2}|School.DAL\\School.DAL.csproj|solutionrelative:school.dal\\storage\\requeststorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0933A924-1267-4D2E-8645-A2C91612C1A2}|School.DAL\\School.DAL.csproj|d:\\project\\school\\school.dal\\storage\\productsstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0933A924-1267-4D2E-8645-A2C91612C1A2}|School.DAL\\School.DAL.csproj|solutionrelative:school.dal\\storage\\productsstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0933A924-1267-4D2E-8645-A2C91612C1A2}|School.DAL\\School.DAL.csproj|d:\\project\\school\\school.dal\\storage\\pictureproductstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0933A924-1267-4D2E-8645-A2C91612C1A2}|School.DAL\\School.DAL.csproj|solutionrelative:school.dal\\storage\\pictureproductstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0933A924-1267-4D2E-8645-A2C91612C1A2}|School.DAL\\School.DAL.csproj|d:\\project\\school\\school.dal\\storage\\orderstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0933A924-1267-4D2E-8645-A2C91612C1A2}|School.DAL\\School.DAL.csproj|solutionrelative:school.dal\\storage\\orderstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0933A924-1267-4D2E-8645-A2C91612C1A2}|School.DAL\\School.DAL.csproj|d:\\project\\school\\school.dal\\storage\\categorystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0933A924-1267-4D2E-8645-A2C91612C1A2}|School.DAL\\School.DAL.csproj|solutionrelative:school.dal\\storage\\categorystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0933A924-1267-4D2E-8645-A2C91612C1A2}|School.DAL\\School.DAL.csproj|d:\\project\\school\\school.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0933A924-1267-4D2E-8645-A2C91612C1A2}|School.DAL\\School.DAL.csproj|solutionrelative:school.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mahboy\\AppData\\Roaming\\Microsoft\\UserSecrets\\423b76d1-9f01-4e64-8675-57fcc4f89706\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\views\\products\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\views\\products\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|d:\\project\\school\\school\\views\\products\\products.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30029EC-45FC-4DDA-B0E9-2CCFB4C3290D}|School\\School.csproj|solutionrelative:school\\views\\products\\products.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7903165-D2CD-4B0F-93F0-099C7C8A3A10}|Service\\Service.csproj|d:\\project\\school\\service\\interface\\iproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7903165-D2CD-4B0F-93F0-099C7C8A3A10}|Service\\Service.csproj|solutionrelative:service\\interface\\iproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C8CD5E-9D13-499E-87C5-B246DBD10630}|School.Domain\\School.Domain.csproj|d:\\project\\school\\school.domain\\enum\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C8CD5E-9D13-499E-87C5-B246DBD10630}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\enum\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C8CD5E-9D13-499E-87C5-B246DBD10630}|School.Domain\\School.Domain.csproj|d:\\project\\school\\school.domain\\enum\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76C8CD5E-9D13-499E-87C5-B246DBD10630}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\enum\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0933A924-1267-4D2E-8645-A2C91612C1A2}|School.DAL\\School.DAL.csproj|d:\\project\\school\\school.dal\\interface\\ibasestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0933A924-1267-4D2E-8645-A2C91612C1A2}|School.DAL\\School.DAL.csproj|solutionrelative:school.dal\\interface\\ibasestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryProducts.cshtml",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Views\\Category\\CategoryProducts.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\Category\\CategoryProducts.cshtml",
+              "ToolTip": "D:\\Project\\School\\School\\Views\\Category\\CategoryProducts.cshtml",
+              "RelativeToolTip": "School\\Views\\Category\\CategoryProducts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T13:25:15.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryDb.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School.Domain\\ModelsDb\\CategoryDb.cs",
+              "RelativeDocumentMoniker": "School.Domain\\ModelsDb\\CategoryDb.cs",
+              "ToolTip": "D:\\Project\\School\\School.Domain\\ModelsDb\\CategoryDb.cs",
+              "RelativeToolTip": "School.Domain\\ModelsDb\\CategoryDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:36:33.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppMappingProfile.cs",
+              "DocumentMoniker": "D:\\Project\\School\\Service\\AppMappingProfile.cs",
+              "RelativeDocumentMoniker": "Service\\AppMappingProfile.cs",
+              "ToolTip": "D:\\Project\\School\\Service\\AppMappingProfile.cs",
+              "RelativeToolTip": "Service\\AppMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:40:26.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICategoryProductsService.cs",
+              "DocumentMoniker": "D:\\Project\\School\\Service\\InterFace\\ICategoryProductsService.cs",
+              "RelativeDocumentMoniker": "Service\\InterFace\\ICategoryProductsService.cs",
+              "ToolTip": "D:\\Project\\School\\Service\\InterFace\\ICategoryProductsService.cs",
+              "RelativeToolTip": "Service\\InterFace\\ICategoryProductsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:39:31.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryProductsService.cs",
+              "DocumentMoniker": "D:\\Project\\School\\Service\\Realizations\\CategoryProductsService.cs",
+              "RelativeDocumentMoniker": "Service\\Realizations\\CategoryProductsService.cs",
+              "ToolTip": "D:\\Project\\School\\Service\\Realizations\\CategoryProductsService.cs",
+              "RelativeToolTip": "Service\\Realizations\\CategoryProductsService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwD0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:40:11.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "School\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Project\\School\\School\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "School\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T16:05:21.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Layout3.cshtml",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Views\\Shared\\Layout3.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\Shared\\Layout3.cshtml",
+              "ToolTip": "D:\\Project\\School\\School\\Views\\Shared\\Layout3.cshtml",
+              "RelativeToolTip": "School\\Views\\Shared\\Layout3.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T16:07:16.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Program.cs",
+              "RelativeDocumentMoniker": "School\\Program.cs",
+              "ToolTip": "D:\\Project\\School\\School\\Program.cs",
+              "RelativeToolTip": "School\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:48:54.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Startup.cs",
+              "RelativeDocumentMoniker": "School\\Startup.cs",
+              "ToolTip": "D:\\Project\\School\\School\\Startup.cs",
+              "RelativeToolTip": "School\\Startup.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwB4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:48:32.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryProductsViewModel.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\CategoryProductsViewModel.cs",
+              "RelativeDocumentMoniker": "School.Domain\\ViewModels\\LoginAndRegistration\\CategoryProductsViewModel.cs",
+              "ToolTip": "D:\\Project\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\CategoryProductsViewModel.cs",
+              "RelativeToolTip": "School.Domain\\ViewModels\\LoginAndRegistration\\CategoryProductsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:26:41.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Layout4.cshtml",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Views\\Shared\\Layout4.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\Shared\\Layout4.cshtml",
+              "ToolTip": "D:\\Project\\School\\School\\Views\\Shared\\Layout4.cshtml",
+              "RelativeToolTip": "School\\Views\\Shared\\Layout4.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T16:07:19.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Project\\School\\School\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "School\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T15:22:00.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Project\\School\\School\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "School\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T16:07:39.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "School\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Project\\School\\School\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "School\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAmwDsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T16:05:29.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Project\\School\\School\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "School\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T15:22:04.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "School.Domain\\ViewModels\\LoginAndRegistration\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Project\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\ErrorViewModel.cs",
+              "RelativeToolTip": "School.Domain\\ViewModels\\LoginAndRegistration\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:05:39.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ConfirmEmailPartial.cshtml",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Views\\Shared\\_ConfirmEmailPartial.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\Shared\\_ConfirmEmailPartial.cshtml",
+              "ToolTip": "D:\\Project\\School\\School\\Views\\Shared\\_ConfirmEmailPartial.cshtml",
+              "RelativeToolTip": "School\\Views\\Shared\\_ConfirmEmailPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T16:10:42.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "School\\Controllers\\ContactController.cs",
+              "ToolTip": "D:\\Project\\School\\School\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "School\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:54:13.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Layout2.cshtml",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Views\\Shared\\Layout2.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\Shared\\Layout2.cshtml",
+              "ToolTip": "D:\\Project\\School\\School\\Views\\Shared\\Layout2.cshtml",
+              "RelativeToolTip": "School\\Views\\Shared\\Layout2.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T16:06:58.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Views\\Index.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\Index.cshtml",
+              "ToolTip": "D:\\Project\\School\\School\\Views\\Index.cshtml",
+              "RelativeToolTip": "School\\Views\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T15:22:06.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "login_and_registration_script.js",
+              "DocumentMoniker": "D:\\Project\\School\\School\\wwwroot\\js\\login_and_registration_script.js",
+              "RelativeDocumentMoniker": "School\\wwwroot\\js\\login_and_registration_script.js",
+              "ToolTip": "D:\\Project\\School\\School\\wwwroot\\js\\login_and_registration_script.js",
+              "RelativeToolTip": "School\\wwwroot\\js\\login_and_registration_script.js",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAqwLMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-08T12:26:02.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Error.cshtml.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Views\\Shared\\Error.cshtml.cs",
+              "RelativeDocumentMoniker": "School\\Views\\Shared\\Error.cshtml.cs",
+              "ToolTip": "D:\\Project\\School\\School\\Views\\Shared\\Error.cshtml.cs",
+              "RelativeToolTip": "School\\Views\\Shared\\Error.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:37:20.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_LoginRegistrationPartial.cshtml",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Views\\Shared\\_LoginRegistrationPartial.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\Shared\\_LoginRegistrationPartial.cshtml",
+              "ToolTip": "D:\\Project\\School\\School\\Views\\Shared\\_LoginRegistrationPartial.cshtml",
+              "RelativeToolTip": "School\\Views\\Shared\\_LoginRegistrationPartial.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T16:07:34.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "System.Formats.Asn1.targets",
+              "DocumentMoniker": "C:\\Users\\mahboy\\.nuget\\packages\\system.formats.asn1\\8.0.1\\buildTransitive\\netcoreapp2.0\\System.Formats.Asn1.targets",
+              "ToolTip": "C:\\Users\\mahboy\\.nuget\\packages\\system.formats.asn1\\8.0.1\\buildTransitive\\netcoreapp2.0\\System.Formats.Asn1.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-12-07T16:10:29.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "System.Text.Encoding.CodePages.targets",
+              "DocumentMoniker": "C:\\Users\\mahboy\\.nuget\\packages\\system.text.encoding.codepages\\8.0.0\\buildTransitive\\netcoreapp2.0\\System.Text.Encoding.CodePages.targets",
+              "ToolTip": "C:\\Users\\mahboy\\.nuget\\packages\\system.text.encoding.codepages\\8.0.0\\buildTransitive\\netcoreapp2.0\\System.Text.Encoding.CodePages.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-12-07T16:08:55.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductsService.cs",
+              "DocumentMoniker": "D:\\Project\\School\\Service\\Realizations\\ProductsService.cs",
+              "RelativeDocumentMoniker": "Service\\Realizations\\ProductsService.cs",
+              "ToolTip": "D:\\Project\\School\\Service\\Realizations\\ProductsService.cs",
+              "RelativeToolTip": "Service\\Realizations\\ProductsService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAwDsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:40:12.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "additional-methods.js",
+              "DocumentMoniker": "D:\\Project\\School\\School\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeDocumentMoniker": "School\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ToolTip": "D:\\Project\\School\\School\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeToolTip": "School\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAUwPIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-07T16:12:29.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Project\\School\\School\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "School\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T16:06:57.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Project\\School\\School\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "School\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T15:22:02.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "System.Security.Cryptography.Pkcs.targets",
+              "DocumentMoniker": "C:\\Users\\mahboy\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.0\\buildTransitive\\netcoreapp2.0\\System.Security.Cryptography.Pkcs.targets",
+              "ToolTip": "C:\\Users\\mahboy\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.0\\buildTransitive\\netcoreapp2.0\\System.Security.Cryptography.Pkcs.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-12-07T16:10:29.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Views\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\Privacy.cshtml",
+              "ToolTip": "D:\\Project\\School\\School\\Views\\Privacy.cshtml",
+              "RelativeToolTip": "School\\Views\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T16:09:51.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Initializer.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Initializer.cs",
+              "RelativeDocumentMoniker": "School\\Initializer.cs",
+              "ToolTip": "D:\\Project\\School\\School\\Initializer.cs",
+              "RelativeToolTip": "School\\Initializer.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:48:27.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Privacy.cshtml.g.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Privacy.cshtml.g.cs",
+              "RelativeDocumentMoniker": "School\\obj\\Debug\\net5.0\\Razor\\Views\\Privacy.cshtml.g.cs",
+              "ToolTip": "D:\\Project\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Privacy.cshtml.g.cs",
+              "RelativeToolTip": "School\\obj\\Debug\\net5.0\\Razor\\Views\\Privacy.cshtml.g.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwFAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T16:08:53.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml.g.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Index.cshtml.g.cs",
+              "RelativeDocumentMoniker": "School\\obj\\Debug\\net5.0\\Razor\\Views\\Index.cshtml.g.cs",
+              "ToolTip": "D:\\Project\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Index.cshtml.g.cs",
+              "RelativeToolTip": "School\\obj\\Debug\\net5.0\\Razor\\Views\\Index.cshtml.g.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAYwEMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T16:08:51.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Error.cshtml.g.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Error.cshtml.g.cs",
+              "RelativeDocumentMoniker": "School\\obj\\Debug\\net5.0\\Razor\\Views\\Error.cshtml.g.cs",
+              "ToolTip": "D:\\Project\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Error.cshtml.g.cs",
+              "RelativeToolTip": "School\\obj\\Debug\\net5.0\\Razor\\Views\\Error.cshtml.g.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAYwG0AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T16:08:50.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Project\\School\\School\\appsettings.json",
+              "RelativeDocumentMoniker": "School\\appsettings.json",
+              "ToolTip": "D:\\Project\\School\\School\\appsettings.json",
+              "RelativeToolTip": "School\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T15:22:08.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "School\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\Project\\School\\School\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "School\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T16:05:35.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RequestStorage.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School.DAL\\Storage\\RequestStorage.cs",
+              "RelativeDocumentMoniker": "School.DAL\\Storage\\RequestStorage.cs",
+              "ToolTip": "D:\\Project\\School\\School.DAL\\Storage\\RequestStorage.cs",
+              "RelativeToolTip": "School.DAL\\Storage\\RequestStorage.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:28:28.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserStorage.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School.DAL\\Storage\\UserStorage.cs",
+              "RelativeDocumentMoniker": "School.DAL\\Storage\\UserStorage.cs",
+              "ToolTip": "D:\\Project\\School\\School.DAL\\Storage\\UserStorage.cs",
+              "RelativeToolTip": "School.DAL\\Storage\\UserStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:28:43.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "D:\\Project\\School\\Service\\InterFace\\IAccountService.cs",
+              "RelativeDocumentMoniker": "Service\\InterFace\\IAccountService.cs",
+              "ToolTip": "D:\\Project\\School\\Service\\InterFace\\IAccountService.cs",
+              "RelativeToolTip": "Service\\InterFace\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:39:18.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\Project\\School\\Service\\Realizations\\AccountService.cs",
+              "RelativeDocumentMoniker": "Service\\Realizations\\AccountService.cs",
+              "ToolTip": "D:\\Project\\School\\Service\\Realizations\\AccountService.cs",
+              "RelativeToolTip": "Service\\Realizations\\AccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:40:06.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ProductsStorage.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School.DAL\\Storage\\ProductsStorage.cs",
+              "RelativeDocumentMoniker": "School.DAL\\Storage\\ProductsStorage.cs",
+              "ToolTip": "D:\\Project\\School\\School.DAL\\Storage\\ProductsStorage.cs",
+              "RelativeToolTip": "School.DAL\\Storage\\ProductsStorage.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwCIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:28:11.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PictureProductStorage.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School.DAL\\Storage\\PictureProductStorage.cs",
+              "RelativeDocumentMoniker": "School.DAL\\Storage\\PictureProductStorage.cs",
+              "ToolTip": "D:\\Project\\School\\School.DAL\\Storage\\PictureProductStorage.cs",
+              "RelativeToolTip": "School.DAL\\Storage\\PictureProductStorage.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwCIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:27:53.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "OrderStorage.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School.DAL\\Storage\\OrderStorage.cs",
+              "RelativeDocumentMoniker": "School.DAL\\Storage\\OrderStorage.cs",
+              "ToolTip": "D:\\Project\\School\\School.DAL\\Storage\\OrderStorage.cs",
+              "RelativeToolTip": "School.DAL\\Storage\\OrderStorage.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwCIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:27:32.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CategoryStorage.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School.DAL\\Storage\\CategoryStorage.cs",
+              "RelativeDocumentMoniker": "School.DAL\\Storage\\CategoryStorage.cs",
+              "ToolTip": "D:\\Project\\School\\School.DAL\\Storage\\CategoryStorage.cs",
+              "RelativeToolTip": "School.DAL\\Storage\\CategoryStorage.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAzwCIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:27:20.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School.DAL\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "School.DAL\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Project\\School\\School.DAL\\ApplicationDbContext.cs",
+              "RelativeToolTip": "School.DAL\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:29:09.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\mahboy\\AppData\\Roaming\\Microsoft\\UserSecrets\\423b76d1-9f01-4e64-8675-57fcc4f89706\\secrets.json",
+              "ToolTip": "C:\\Users\\mahboy\\AppData\\Roaming\\Microsoft\\UserSecrets\\423b76d1-9f01-4e64-8675-57fcc4f89706\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T15:49:59.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Views\\Products\\Products.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\Products\\Products.cshtml",
+              "ToolTip": "D:\\Project\\School\\School\\Views\\Products\\Products.cshtml",
+              "RelativeToolTip": "School\\Views\\Products\\Products.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T15:45:55.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Products.cshtml.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School\\Views\\Products\\Products.cshtml.cs",
+              "RelativeDocumentMoniker": "School\\Views\\Products\\Products.cshtml.cs",
+              "ToolTip": "D:\\Project\\School\\School\\Views\\Products\\Products.cshtml.cs",
+              "RelativeToolTip": "School\\Views\\Products\\Products.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:45:57.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IProductsService.cs",
+              "DocumentMoniker": "D:\\Project\\School\\Service\\InterFace\\IProductsService.cs",
+              "RelativeDocumentMoniker": "Service\\InterFace\\IProductsService.cs",
+              "ToolTip": "D:\\Project\\School\\Service\\InterFace\\IProductsService.cs",
+              "RelativeToolTip": "Service\\InterFace\\IProductsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:39:40.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Status.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School.Domain\\Enum\\Status.cs",
+              "RelativeDocumentMoniker": "School.Domain\\Enum\\Status.cs",
+              "ToolTip": "D:\\Project\\School\\School.Domain\\Enum\\Status.cs",
+              "RelativeToolTip": "School.Domain\\Enum\\Status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:35:36.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School.Domain\\Enum\\Role.cs",
+              "RelativeDocumentMoniker": "School.Domain\\Enum\\Role.cs",
+              "ToolTip": "D:\\Project\\School\\School.Domain\\Enum\\Role.cs",
+              "RelativeToolTip": "School.Domain\\Enum\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:35:32.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IBaseStorage.cs",
+              "DocumentMoniker": "D:\\Project\\School\\School.DAL\\Interface\\IBaseStorage.cs",
+              "RelativeDocumentMoniker": "School.DAL\\Interface\\IBaseStorage.cs",
+              "ToolTip": "D:\\Project\\School\\School.DAL\\Interface\\IBaseStorage.cs",
+              "RelativeToolTip": "School.DAL\\Interface\\IBaseStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T15:25:18.045Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+﻿@model School.Domain.ViewModels.LoginAndRegistration.ListOfProductsViewModel
+@{
+    Layout = "Layout4";
+    ViewData["Title"] = "Товары";
+}
+
+<div class="search">
+    <div class="input">
+        |
+        <input type="text" id="mySearch" placeholder="Поиск">
+    </div>
+    <div class="icon"></div>
+    <span class="clear"></span>
+</div>
+
+<div class="container-list-products">
+    <div class="link-page">
+        <a href="/Home/SiteInformation">Главная</a> >
+        <a href="/Category/CategoryProducts">Категории</a> >
+        Товары
+    </div>
+    <div class="filter">
+        <h3>Фильтр</h3>
+        </div>
+        </div>
+        <input id="id_Category" value="@Model.Id_Category" style="display: none" />
+        <div class="filter-button">
+            <button id="apply-filter">Применить фильтр</button>
+        </div>
+    <div class="sorts">
+<label for="sort-options">Сортировать по:</label>
+<select id="sort-options">
+<option value="">Выберите...</option>
+<option value="price-adult-asc">Цена взрослых (по возрастанию)</option>
+<option value="price-adult-desc">Цена взрослых (по убыванию)</option>
+<option value="stars-asc">Количество звезд (по возрастанию)</option>
+< <option value="stars-desc">Количество звезд (по убыванию)</option>
+</select>
+</div>
+    <div class="container-products">
+        <div class="list-products">
+            @foreach (var item in Model.Products)
+            {
+                <div class="tour-item">
+                    <img src="@item.PathImage" alt="Товар" class="item-tour-img" />
+                    <div class="item-info">
+                        <h2>@item.Name</h2>
+                        <p>@item.Opisanie</p>
+                    </div>
+                    <table>
+                        <tbody>
+
+                            <tr>
+                                <td><strong>@item.Price руб</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button>Купить</button>
+                    <input asp-for="@item.Id" value="@item.Id" style="display: none" />
+                    <input asp-for="@item.Id_Category" value="@item.Id_Category" style="display: none" />
+
+                </div>
+            }
+        </div>
+    </div>
+</div>
