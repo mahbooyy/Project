@@ -20,20 +20,17 @@ namespace School.Controllers
 
         public IActionResult CategoryProducts()
         {
-            // Получаем данные о категориях из сервиса
             var result = _categoryproductsService.GetALLCategoryProducts();
 
             if (result == null || result.Data == null || result.Data.Count == 0)
             {
-                // Если нет категорий, показываем сообщение
                 ViewData["ErrorMessage"] = "Нет доступных категорий.";
                 return View(new List<CategoryProductsViewModel>());
             }
 
-            // Маппим данные из результата в модель представления
             var categoryproducts = _mapper.Map<List<CategoryProductsViewModel>>(result.Data);
-
-            return View(categoryproducts);
+            return View(categoryproducts); // передаем список
         }
+
     }
 }

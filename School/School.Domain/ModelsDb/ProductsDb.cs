@@ -17,33 +17,23 @@ namespace School.Domain.ModelsDb
         public Guid Id_Category { get; set; }
 
         [Column("name")]
-
         public string Name { get; set; }
 
         [Column("price")]
-
         public decimal Price { get; set; }
 
         [Column("pathImg")]
-
         public string PathImage { get; set; }
 
-
         [Column("createdAt", TypeName = "timestamp")]
-
         public DateTime CreatedAt { get; set; }
 
         [Column("opisanie")]
-
         public string Opisanie { get; set; }
 
-        public OrdersDb OderDb { get; set; }
-
+        // Навигационное свойство для CategoryDb
         public CategoryDb CategoryDb { get; set; }
-
-        public PictureProductDb PictureProduct { get; set; }
-
-        public ICollection<CategoryDb> categoryDb { get; set; }
-
     }
+
 }
+

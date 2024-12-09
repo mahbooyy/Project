@@ -13,7 +13,7 @@ namespace School.Domain.ViewModels.LoginAndRegistration
 
         public decimal Price { get; set; }
 
-        public int PathImage { get; set; }
+        public string PathImage { get; set; }
 
         public DateTime CreatedAt { get; set; }
 

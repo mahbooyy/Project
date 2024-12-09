@@ -16,17 +16,15 @@ namespace School.Domain.ModelsDb
         public Guid Id { get; set; }
 
         [Column("createdAt", TypeName = "timestamp")]
-
         public DateTime CreatedAt { get; set; }
-
-        [Column("Id_product")]
-
-        public Guid Id_Product { get; set; }
 
         [Column("name")]
         public string Name { get; set; }
 
-        public ProductsDb productsDb{ get; set; }
- 
+        // Коллекция продуктов
+        public ICollection<ProductsDb> ProductsDb { get; set; }
     }
+
+
 }
+

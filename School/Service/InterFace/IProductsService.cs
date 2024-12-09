@@ -8,7 +8,7 @@ namespace School.Service.InterFace
 {
     public interface IProductsService
     {
-        Task<BaseResponse<List<Products>>> GetALLProductsByCategory(Guid Id);
+        Task<BaseResponse<List<Products>>> GetALLProductsByCategory(Guid Id);  // Используем Task
 
         Task<BaseResponse<List<Products>>> GetProductsByFilter(ProductsFilter filter);
 

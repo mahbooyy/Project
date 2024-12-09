@@ -30,13 +30,13 @@ namespace School.Controllers
             if (result?.Data == null || result.Data.Count == 0)
             {
                 // Если нет данных, возвращаем пустую модель или ошибку
-                return View(new ListOfProductsViewModel { Id_Products = Id });
+                return View(new ListOfProductsViewModel { Id = Id });
             }
 
             ListOfProductsViewModel listProducts = new ListOfProductsViewModel
             {
                 Products = _mapper.Map<List<ProductsForListOfProductsViewModel>>(result.Data),
-                Id_Products = Id
+                Id = Id
             };
 
             return View(listProducts);

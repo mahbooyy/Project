@@ -21,9 +21,7 @@ namespace School.Service
             CreateMap<RegisterViewModel, ConfirmEmailViewModel>().ReverseMap();
             CreateMap<User, ConfirmEmailViewModel>().ReverseMap();
             CreateMap<Category, CategoryDb>().ReverseMap();
-            CreateMap<CategoryDb, CategoryProductsViewModel>()
-                 .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name))
-                 .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id));
+            CreateMap<Category, CategoryProductsViewModel>().ReverseMap();
             CreateMap<Products, ProductsDb>().ReverseMap();
             CreateMap<Products, ListOfProductsViewModel>().ReverseMap();
             CreateMap<Products, ProductsPageViewModel>().ReverseMap();

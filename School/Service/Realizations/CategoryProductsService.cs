@@ -30,7 +30,7 @@
                 }
 
                 // Реализуем метод GetALLCountries() из интерфейса
-                public BaseResponse<List<CategoryDb>> GetALLCategoryProducts()
+                public BaseResponse<List<Category>> GetALLCategoryProducts()
                 {
                     try
                     {
@@ -38,11 +38,11 @@
                         var CategoryDb = _CategoryStorage.GetAll().OrderBy(p => p.CreatedAt).ToList();
 
 
-                        var result = _mapper.Map<List<CategoryDb>>(CategoryDb);
+                        var result = _mapper.Map<List<Category>>(CategoryDb);
                         // Если ничего не найдено
                         if (result.Count == 0)
                         {
-                            return new BaseResponse<List<CategoryDb>>()
+                            return new BaseResponse<List<Category>>()
                             {
                                 Description = "Найдено 0 элементов",
                                 StatusCode = StatusCode.OK
@@ -50,7 +50,7 @@
                         }
 
                         // Возвращаем успешный ответ с данными
-                        return new BaseResponse<List<CategoryDb>>()
+                        return new BaseResponse<List<Category>>()
                         {
                             Data = result,
                             StatusCode = StatusCode.OK
@@ -59,7 +59,7 @@
                     catch (Exception ex)
                     {
                         // Обрабатываем исключение и возвращаем ошибку
-                        return new BaseResponse<List<CategoryDb>>()
+                        return new BaseResponse<List<Category>>()
                         {
                             Description = ex.Message,
                             StatusCode = StatusCode.InternalServerError

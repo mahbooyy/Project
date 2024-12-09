@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using School.DAL.Interface;
 using School.DAL.Storage;
 using School.Domain.Models;
@@ -25,11 +26,14 @@ namespace School.Service.Realizations
             _mapper = mapper;
         }
 
-        public BaseResponse<List<Products>> GetALLProductsByCategory(Guid Id)
+        public async Task<BaseResponse<List<Products>>> GetALLProductsByCategory(Guid Id)
         {
             try
             {
-                var productsDb = _productsStorage.GetAll().Where(x => x.Id_Category == Id).OrderBy(p => p.CreatedAt).ToList();
+                var productsDb = await _productsStorage.GetAll()  // Используем асинхронную загрузку
+                    .Where(x => x.Id_Category == Id)
+                    .OrderBy(p => p.CreatedAt)
+                    .ToListAsync();  // Используем ToListAsync для асинхронной работы с базой данных
 
                 var result = _mapper.Map<List<Products>>(productsDb);
                 if (!result.Any())
@@ -57,11 +61,11 @@ namespace School.Service.Realizations
             }
         }
 
-        public BaseResponse<List<Products>> GetProductsByFilter(ProductsFilter filter)
+        public async Task<BaseResponse<List<Products>>> GetProductsByFilter(ProductsFilter filter)
         {
             try
             {
-                var allProductsResponse = GetALLProductsByCategory(filter.Id_Category);
+                var allProductsResponse = await GetALLProductsByCategory(filter.Id_Category);  // Теперь вызываем асинхронно
                 var productFilter = allProductsResponse.Data;
 
                 if (filter != null && productFilter != null)
@@ -146,11 +150,13 @@ namespace School.Service.Realizations
             }
         }
 
-        public BaseResponse<List<PictureProduct>> GetPictureProductById(Guid Id)
+        public async Task<BaseResponse<List<PictureProduct>>> GetPictureProductById(Guid Id)
         {
             try
             {
-                var pictureDb = _pictureProductStorage.GetAll().Where(x => x.Id_Product == Id).ToList();
+                var pictureDb = await _pictureProductStorage.GetAll()  // Используем асинхронную загрузку
+                    .Where(x => x.Id_Product == Id)
+                    .ToListAsync();  // Используем ToListAsync для асинхронной работы с базой данных
 
                 var result = _mapper.Map<List<PictureProduct>>(pictureDb);
                 if (!result.Any())
@@ -176,26 +182,6 @@ namespace School.Service.Realizations
                     StatusCode = StatusCode.InternalServerError
                 };
             }
-        }
-
-        Task<BaseResponse<List<Products>>> IProductsService.GetALLProductsByCategory(Guid Id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<BaseResponse<List<Products>>> IProductsService.GetProductsByFilter(ProductsFilter filter)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<BaseResponse<Products>> IProductsService.GetProductsById(Guid Id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<BaseResponse<List<PictureProduct>>> IProductsService.GetPictureProductById(Guid Id)
-        {
-            throw new NotImplementedException();
         }
     }
 }

@@ -1,31 +1,34 @@
-﻿@model List<School.Domain.ViewModels.LoginAndRegistration.CategoryProductsViewModel>
-
+﻿@model School.Domain.ViewModels.LoginAndRegistration.CategoryProductsViewModel
 @{
+
     Layout = "Layout2";
-    ViewData["Title"] = "Категории";
+    ViewData["Title"] = "Товары";
 }
 
-<div class="grid-container">
-    @if (Model != null && Model.Count > 0)
-    {
-        @foreach (var item in Model)
-        {
-            <div class="card-category" onclick="window.location.href = '@Url.Action("ListOfProducts","Products", new {Id = item.Id})'">
-                <div class="card-overlay">
-                    <div class="card-title">@item.Name</div>
-                </div>
-            </div>
-        }
-    }
-    else
-    {
-        <p>Нет доступных категорий.</p>
-    }
 
-    @if (ViewData["ErrorMessage"] != null)
-    {
-        <div class="alert alert-danger">
-            @ViewData["ErrorMessage"]   
-        </div>
-    }
-</div>
+<div class="grid-container">
+        <div class="list-products">
+                @foreach (var item in Model.Products)
+                {
+                    <div class="tour-item">
+                        <img src="@item.PathImage" alt="Товар" class="item-tour-img" />
+                        <div class="item-info">
+                            <h2>@item.Name</h2>
+                            <p>@item.Opisanie</p>
+                        </div>
+                        <table>
+                            <tbody>
+
+                                <tr>
+                                    <td><strong>@item.Price руб</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <button>Купить</button>
+                        <input asp-for="@item.Id" value="@item.Id" style="display: none" />
+                        <input asp-for="@item.Id_Category" value="@item.Id_Category" style="display: none" />
+
+                    </div>
+                }
+            </div>
+    </div>
