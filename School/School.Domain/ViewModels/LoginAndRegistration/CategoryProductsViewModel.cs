@@ -12,7 +12,9 @@
 
                 public Guid Id { get; set; }
 
-               public ListOfProductsViewModel ListOfProductsViewModel { get; set; }
+                public Guid Id_Product { get; set; }
+
+                public DateTime createdAt { get; set; }
              }
             
         }

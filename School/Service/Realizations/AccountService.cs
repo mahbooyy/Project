@@ -145,7 +145,7 @@ namespace School.Service.Realizations
         public async Task SendEmail(string email, string confirmationCode)
         {
             // Путь к файлу с паролем
-            string path = "D:\\tizul\\EtilPassword\\password.txt";
+            string path = "D:\\mahboy\\Project\\EtilPassword";
             // Создание сообщения
             var emailMessage = new MimeMessage();
             emailMessage.From.Add(new MailboxAddress("Администрация сайта", "Karandash.com"));
@@ -217,7 +217,7 @@ namespace School.Service.Realizations
                 try
                 {
                     await client.ConnectAsync("smtp.gmail.com", 465, true);
-                    await client.AuthenticateAsync("toptopxlopxlop1@gmail.com", password.Trim());
+                    await client.AuthenticateAsync("toptopxlopxlop@gmail.com", password.Trim());
                     await client.SendAsync(emailMessage);
                 }
                 finally

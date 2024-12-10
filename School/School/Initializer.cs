@@ -8,7 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using Service.InterFace;
+using Service.Realizations;
 
 namespace School
 {
@@ -33,6 +34,7 @@ namespace School
             services.AddControllersWithViews()
                     .AddDataAnnotationsLocalization()
                     .AddViewLocalization();
+            services.AddScoped<ICatalogSerivce, CatalogService>();
         }
     }
 
