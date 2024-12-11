@@ -144,88 +144,46 @@ namespace School.Service.Realizations
         }
         public async Task SendEmail(string email, string confirmationCode)
         {
-            // Путь к файлу с паролем
-            string path = "D:\\mahboy\\Project\\EtilPassword";
-            // Создание сообщения
-            var emailMessage = new MimeMessage();
-            emailMessage.From.Add(new MailboxAddress("Администрация сайта", "Karandash.com"));
+            string path = "D:\\mahboy\\Project\\EtilPassword\\password.txt"; var emailMessage = new MimeMessage();
+            emailMessage.From.Add(new MailboxAddress("Адинистрация caйтa", "Karandash"));
             emailMessage.To.Add(new MailboxAddress("", email));
             emailMessage.Subject = "Добро пожаловать!";
-            emailMessage.Body = new TextPart("html")
+            emailMessage.Body = new TextPart(MimeKit.Text.TextFormat.Html)
             {
-                Text = @"
-            <html>
-                <head>
-                    <style>
-                        body {
-                            font-family: Arial, sans-serif;
-                            background-color: #f2f2f2;
-                            margin: 0;
-                            padding: 0;
-                        }
-                        .container {
-                            max-width: 600px;
-                            margin: 20px auto;
-                            padding: 20px;
-                            background-color: #fff;
-                            border-radius: 10px;
-                            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-                        }
-                        .header {
-                            text-align: center;
-                            margin-bottom: 20px;
-                        }
-                        .message {
-                            font-size: 16px;
-                            line-height: 1.6;
-                        }
-                        .container-code {
-                            background-color: #f0f0fe;
-                            padding: 10px;
-                            border-radius: 5px;
-                            font-weight: bold;
-                            text-align: center;
-                        }
-                    </style>
-                </head>
-                <body>
-                    <div class='container'>
-                        <div class='header'>
-                            <h1>Добро пожаловать на сайт КарандашMD!</h1>
-                        </div>
-                        <div class='message'>
-                            <p>Пожалуйста, введите данный код на сайте, чтобы подтвердить ваш email и завершить регистрацию:</p>
-                            <div class='container-code'>
-                                <p>" + confirmationCode + @"</p>
-                            </div>
-                        </div>
-                    </div>
-                </body>
-            </html>"
+                Text = "<html>" + "<head>" + "<style>" +
+                "body { font-family: Arial, sans-serif; background-color: #f2f2f2; }" +
+                ".container { max-width: 600px; margin: 0 auto; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }" +
+                ".header { text-align: center; margin-bottom: 20px; }" +
+                ".message { font-size: 16px; line - height: 1.6; }" + ".conteiner-code { background-color: #fefefe; padding: 5px; border-radius: 5px; font-weight: bold; }" +
+                ".code {text-align: center; }" +
+                "</style>" +
+                "</head>" +
+                "<body>" +
+                "<div class='container'>" +
+                "<div class='header'><h1>Дoбpо пожаловать на сайт KarandashMD!</h1></div>" +
+                "<div class='message'>" +
+                "<р> Пожалуйста, введите данный код на сайте, чтобы подтвердить ваш email и завершить регистрацию: </p> " + " <div class='conteiner-code'><p class='code'>" + confirmationCode + "</p></div>" +
+                "</div>" + "</div>" + "</body>" + "</html>"
+
             };
 
-            // Чтение пароля из файла
-            string password;
             using (StreamReader reader = new StreamReader(path))
             {
-                password = await reader.ReadToEndAsync();
-            }
+                string password = await reader.ReadToEndAsync();
 
-            // Отправка письма через SMTP
-            using (var client = new MailKit.Net.Smtp.SmtpClient())
-            {
-                try
+                using (var client = new MailKit.Net.Smtp.SmtpClient())
                 {
                     await client.ConnectAsync("smtp.gmail.com", 465, true);
-                    await client.AuthenticateAsync("toptopxlopxlop@gmail.com", password.Trim());
+                    await client.AuthenticateAsync("Ilyagradinar228@gmail.com", password);
                     await client.SendAsync(emailMessage);
-                }
-                finally
-                {
+
                     await client.DisconnectAsync(true);
                 }
+
             }
+
         }
+
         public async Task<BaseResponse<ClaimsIdentity>> ConfirmEmail(User model, string code, string confirmCode)
         {
             try
@@ -253,7 +211,6 @@ namespace School.Service.Realizations
                     Description = "Объект добавился",
                     StatusCode = StatusCode.OK
 
-
                 };
             }
             catch (Exception ex)
@@ -264,6 +221,7 @@ namespace School.Service.Realizations
                     StatusCode = StatusCode.InternalServerError
                 };
             }
+
         }
         public async Task<BaseResponse<ClaimsIdentity>> IsCreatedAccount(User model)
         {

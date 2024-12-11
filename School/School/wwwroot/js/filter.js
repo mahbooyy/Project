@@ -1,28 +1,25 @@
-﻿const sortSelect = document.getElementById('sort-options');
-const serviceContainer = document.querySelector('.container-services');
+﻿document.addEventListener('DOMContentLoaded', () => {
+    const sortSelect = document.getElementById('sort-options');
+    const productsContainer = document.querySelector('.container-products');
 
-sortSelect.addEventListener('change', () => {
+    sortSelect.addEventListener('change', () => {
+        const sortOption = sortSelect.value;
 
-    const sortOption = sortSelect.value;
+        const products = Array.from(productsContainer.querySelectorAll('.tour-item'));
 
-    const services = Array.from(serviceContainer.querySelectorAll('.service-item'));
+        products.sort((a, b) => {
+            const priceA = parseFloat(a.querySelector('td strong').textContent.replace(' руб', '').trim());
+            const priceB = parseFloat(b.querySelector('td strong').textContent.replace(' руб', '').trim());
 
-    services.sort((a, b) => {
-        const priceA = parseFloat(a.querySelector('table tr:nth-child(2) td:first-child').textContent.replace('$', ''));
-        const priceB = parseFloat(b.querySelector('table tr:nth-child(2) td:first-child').textContent.replace('$', ''));
-
-        switch (sortOption) {
-            case 'price-asc': {
+            if (sortOption === 'price-asc') {
                 return priceA - priceB; // От меньшей к большей
-            }
-            case 'price-desc': {
+            } else if (sortOption === 'price-desc') {
                 return priceB - priceA; // От большей к меньшей
             }
-            default:
-                return 0;
-        }
-    });
+            return 0;
+        });
 
-    // Добавляем отсортированные элементы обратно в контейнер
-    services.forEach(service => serviceContainer.appendChild(service));
+        productsContainer.innerHTML = '';
+        products.forEach((product) => productsContainer.appendChild(product));
+    });
 });

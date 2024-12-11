@@ -142,3 +142,10 @@
     color: #fff;
     background-color: #370b0b;
 }
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 900;
+}

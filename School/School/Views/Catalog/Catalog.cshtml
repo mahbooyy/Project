@@ -4,24 +4,6 @@
     ViewData["Title"] = "Контакты";
 }
 <div class="container-products">
-    @if (Model != null && Model.Categories.Count > 0)
-    {
-        @foreach (var item in Model.Categories)
-        {
-            <div class="card-category" onclick="window.location.href = '@Url.Action("ListOfProducts","Products", new {Id = item.Id})'">
-                <div class="card-overlay">
-                    <div class="card-title">@item.Name</div>
-                </div>
-            </div>
-        }
-    }
-    @if (ViewData["ErrorMessage"] != null)
-    {
-        <div class="alert alert-danger">
-            @ViewData["ErrorMessage"]
-        </div>
-    }
-    </div>
     <div class="list-products">
         @foreach (var item in Model.Products)
         {
@@ -46,3 +28,4 @@
             </div>
         }
     </div>
+</div>

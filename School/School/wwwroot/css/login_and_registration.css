@@ -1,4 +1,4 @@
-﻿.container-login-registration {
+﻿﻿.container-login-registration {
     display: none;
     width: 100%;
     height: 100%;
@@ -9,12 +9,12 @@
     z-index: 1000;
 }
 
-.block-container{
+.block-container {
     width: 800px;
     height: 500px;
     padding: 40px 0;
     z-index: 901;
-    position:relative;
+    position: relative;
 }
 
 .block {
@@ -27,26 +27,26 @@
     transition: 0.5s;
 }
 
-.block.active{
-    background-color: #939393;
-}
+    .block.active {
+        background-color: #939393;
+    }
 
-.block_item{
+.block_item {
     width: 50%;
 }
 
-.overlay{
+#overlay {
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: 900;
 }
 
-.block-item{
-    text-align:center;
+.block-item {
+    text-align: center;
 }
 
-.block-item_title{
+.block-item_title {
     font-size: 1.2rem;
     font-weight: 500;
     color: #fff;
@@ -79,21 +79,21 @@
     overflow: hidden;
 }
 
-.form-box.active{
-    left: 50%;
-}
+    .form-box.active {
+        left: 50%;
+    }
 
-.font_title{
+.font_title {
     font-size: 1.5rem;
     font-weight: 500;
     color: #333;
 }
 
-.form-box label{
+.form-box label {
     position: relative;
 }
 
-.form-box input{
+.form-box input {
     outline: none;
     width: 100%;
     padding: 10px;
@@ -102,22 +102,22 @@
     font-size: inherit;
 }
 
-.form-box input:focus{
-    border-color: rgb(255,165,0);
-}
-
-    .form-box input:focus + span,
-    .form-box input:not(:placeholder-shown) ~ span {
-        top: 6px;
-        left: 8px;
-        font-size: 12px;
-        color: rgb(220,220,220);
-        background-color: #fff;
+    .form-box input:focus {
+        border-color: rgb(255,165,0);
     }
 
-span{
-    cursor:text;
-    position:absolute;
+        .form-box input:focus + span,
+        .form-box input:not(:placeholder-shown) ~ span {
+            top: 6px;
+            left: 8px;
+            font-size: 12px;
+            color: rgb(220,220,220);
+            background-color: #fff;
+        }
+
+span {
+    cursor: text;
+    position: absolute;
     top: 33%;
     left: 16px;
     color: rgb(131,131,131);
@@ -136,34 +136,34 @@ span{
     width: fit-content;
 }
 
-.form-btn_signup{
+.form-btn_signup {
     background-color: #939393;
 }
 
-.form{
+.form {
     width: 100%;
     padding: 50px;
     font-size: 16px;
-    position:absolute;
+    position: absolute;
     transition: 0.5s;
 }
 
-.form_signin{
-    left:0;
-    transition:0.25s;
+.form_signin {
+    left: 0;
+    transition: 0.25s;
 }
 
-.form_signup{
+.form_signup {
     left: 100%;
     transition: 0s;
 }
 
-.form-box.active .form_signin{
+.form-box.active .form_signin {
     left: -100%;
     transition: 0s;
 }
 
-.form-box.active .form_signup{
+.form-box.active .form_signup {
     left: 0;
     transition: 0.25s;
 }
@@ -172,10 +172,11 @@ span{
     margin-top: 10px;
 }
 
-.error{
+.error {
     color: red;
     font-size: 13px;
 }
+
 .confirm-email-form {
     margin-top: 130px;
     margin-bottom: 100px;
@@ -236,6 +237,7 @@ span{
     background: #f9e2e2;
     border-radius: 4px;
 }
+
 .container-login-registration,
 .confirm-email-container {
     display: none;
@@ -247,6 +249,7 @@ span{
     background: rgba(0, 0, 0, 0.5);
     z-index: 1000;
 }
+
 .google-img {
     width: 20%;
     cursor: pointer;
@@ -260,6 +263,7 @@ span{
     .form-btn-container a {
         display: contents;
     }
+
 .form-btn {
     border: none;
     cursor: pointer;

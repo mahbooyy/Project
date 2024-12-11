@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/shared.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/login_and_registration.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/media_style.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/products.css" asp-append-version="true" />
-
+    <link rel="stylesheet" href="~/css/filter.css" asp-append-version="true" />
 </head>
 <body>
     <div id="header-top">
@@ -23,7 +24,7 @@
             <ul>
                 <li><a href="/Home/SiteInformation">Главная</a></li>
                 <li><a href="/Contacts/ContactsInformation">Контакты</a></li>
-                <li><a href="/Category/CategoryProducts">Категории</a></li>
+                <li><a href="/Catalog/Catalog">Категории</a></li>
             </ul>
         </div>
     </div>
@@ -32,11 +33,12 @@
             <ul>
                 <li><a href="/Home/SiteInformation">Главная</a></li>
                 <li><a href="/Contacts/ContactsInformation">Контакты</a></li>
-                <li><a href="/Category/CategoryProducts">Категории</a></li>
+                <li><a href="/Catalog/Catalog">Категории</a></li>
             </ul>
         </div>
     </div>
     <div class="container">
+
 
 @RenderBody()
 </div>
@@ -55,7 +57,7 @@
             <ul>
                 <li><a href="/Home/SiteInformation">Главная</a></li>
                 <li><a href="/Contacts/ContactsInformation">Контакты</a></li>
-                <li><a href="/Category/CategoryProducts">Категории</a></li>
+                <li><a href="/Catalog/Catalog">Категории</a></li>
             </ul>
         </div>
     </div>
@@ -63,5 +65,9 @@
 <script src="~/js/shared_script.js" asp-append-version="true"></script>
 <script src="~/js/home_script.js" asp-append-version="true"></script>
 <script src="~/js/chared_script.js" asp-append-version="true"></script>
+<script src="~/js/filter.js" asp-append-version="true"></script>
+<script src="~/js/search.js" asp-append-version="true"></script>
+<script src="~/js/productsfetch.js" asp-append-version="true"></script>
+<script src="~/js/login_and_registration_script.js" asp-append-version="true"></script>
 </body>
 </html>
