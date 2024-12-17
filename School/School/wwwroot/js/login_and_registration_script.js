@@ -19,7 +19,7 @@
         hiddenOpen_Closeclick(".container-login-registration");
     });
 
-    document.querySelector(".overlay").addEventListener("click", function () {
+    document.getElementById("overlay").addEventListener("click", function () {
         hiddenOpen_Closeclick(".container-login-registration");
     });
 
@@ -27,13 +27,6 @@
         hiddenOpen_Closeclick(".confirm-email-container");
     });
 
-    //const button_confirm = document.querySelector(".button_confirm_close");
-
-    //if (button_confirm) {
-    //    button_confirm.addEventListener("click", function () {
-    //        hiddenOpen_Closeclick(".container-login-registration");
-    //    });
-    //}
 
     // Переключение между формами входа и регистрации
     const signInBtn = document.querySelector('.signin-btn');

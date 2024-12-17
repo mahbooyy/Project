@@ -41,31 +41,33 @@
     // Функция отображения товаров после фильтрации
     function displayProducts(data) {
         const productsContainer = document.querySelector('.list-products');
-        productsContainer.innerHTML = ''; // Очистка старых данных
+
+        // Очистка только содержимого контейнера, но не самого контейнера
+        productsContainer.innerHTML = '';
 
         if (!data || data.length === 0) {
             productsContainer.innerHTML = '<h2>По данному фильтру товаров нет</h2>';
         } else {
             data.forEach((product) => {
                 const productItem = `
-                        <div class="tour-item">
-                            <img src="${product.pathImage}" alt="Товар" class="item-tour-img" />
-                            <div class="item-info">
-                                <h2>${product.name}</h2>
-                                <p>${product.opisanie}</p>
-                            </div>
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td><strong>${product.price} руб</strong></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <button>Купить</button>
-                            <input value="${product.id}" style="display: none" />
-                            <input value="${product.idCategory}" style="display: none" />
+                    <div class="tour-item">
+                        <img src="${product.pathImage}" alt="Товар" class="item-tour-img" />
+                        <div class="item-info">
+                            <h2>${product.name}</h2>
+                            <p>${product.opisanie}</p>
                         </div>
-                    `;
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>${product.price} руб</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <button>Купить</button>
+                        <input value="${product.id}" style="display: none" />
+                        <input value="${product.idCategory}" style="display: none" />
+                    </div>
+                `;
                 productsContainer.innerHTML += productItem;
             });
         }
@@ -73,12 +75,18 @@
 
     // Сортировка товаров
     const sortSelect = document.getElementById('sort-options');
-    sortSelect.addEventListener('change', () => {
+
+    sortSelect.addEventListener('change', function() {
         const sortOption = sortSelect.value;
         const productsContainer = document.querySelector('.list-products');
 
         // Собираем товары для сортировки
         const products = Array.from(productsContainer.querySelectorAll('.tour-item'));
+
+        productsContainer = document.createElement('div');
+
+        // Добавляем классы для стилизации
+        productsContainer.classList.add('list-products');  // Добавление класса для стилизации
 
         products.sort((a, b) => {
             const priceA = parseFloat(a.querySelector('td strong').textContent.replace(' руб', '').trim());

@@ -1,10 +1,11 @@
 ﻿document.addEventListener('DOMContentLoaded', () => {
     const sortSelect = document.getElementById('sort-options');
-    const productsContainer = document.querySelector('.container-products');
+    const productsContainer = document.querySelector('.list-products');  // Измените на правильный класс контейнера
 
     sortSelect.addEventListener('change', () => {
         const sortOption = sortSelect.value;
 
+        // Получаем все товары внутри контейнера
         const products = Array.from(productsContainer.querySelectorAll('.tour-item'));
 
         products.sort((a, b) => {
@@ -16,10 +17,17 @@
             } else if (sortOption === 'price-desc') {
                 return priceB - priceA; // От большей к меньшей
             }
-            return 0;
+            return 0; // Если сортировка не выбрана
         });
 
+        // Очищаем только товары, оставляя сам контейнер
         productsContainer.innerHTML = '';
-        products.forEach((product) => productsContainer.appendChild(product));
+
+        // Если товары есть, добавляем их обратно, если нет - показываем сообщение
+        if (products.length === 0) {
+            productsContainer.innerHTML = '<h2>По данному фильтру товаров нет</h2>';
+        } else {
+            products.forEach((product) => productsContainer.appendChild(product));
+        }
     });
 });

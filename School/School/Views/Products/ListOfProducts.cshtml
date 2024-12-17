@@ -14,43 +14,38 @@
     </div>
     <div class="filter">
         <h3>Фильтр</h3>
-        </div>
-        </div>
-        <input id="id_Category" value="@Model.Id_Category" style="display: none" />
-        <div class="filter-button">
-            <button id="apply-filter">Применить фильтр</button>
-        </div>
-    <div class="sorts">
-<label for="sort-options">Сортировать по:</label>
-<select id="sort-options">
-    <option value="price-asc">Цена: от меньшей к большей</option>
-    <option value="price-desc">Цена: от большей к меньшей</option>
-</select>
+    </div>
+</div>
+<div class="sorts">
+    <label for="sort-options">Сортировать по:</label>
+    <select id="sort-options">
+        <option value="price-asc">Цена: от меньшей к большей</option>
+        <option value="price-desc">Цена: от большей к меньшей</option>
+    </select>
 
 </div>
-    <div class="container-products">
-        <div class="list-products">
-            @foreach (var item in Model.Products)
-            {
-                <div class="tour-item">
-                    <img src="@item.PathImage" alt="Товар" class="item-tour-img" />
-                    <div class="item-info">
-                        <h2>@item.Name</h2>
-                        <p>@item.Opisanie</p>
-                    </div>
-                    <table>
-                        <tbody>
-
-                            <tr>
-                                <td><strong>@item.Price руб</strong></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <button>Купить</button>
-                    <input asp-for="@item.Id" value="@item.Id" style="display: none" />
-                    <input asp-for="@item.Id_Category" value="@item.Id_Category" style="display: none" />
-
+<div class="container-products">
+    <div class="list-products">
+        @foreach (var item in Model.Products)
+        {
+            <div class="tour-item">
+                <img src="@item.PathImage" alt="Товар" class="item-tour-img" />
+                <div class="item-info">
+                    <h2>@item.Name</h2>
+                    <p>@item.Opisanie</p>
                 </div>
-            }
+                <table>
+                    <tbody>
+
+                        <tr>
+                            <td><strong>@item.Price руб</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button>Купить</button>
+                <input asp-for="@item.Id" value="@item.Id" style="display: none" />
+                <input asp-for="@item.Id_Category" value="@item.Id_Category" style="display: none" />
+            </div>
+    }
         </div>
     </div>
