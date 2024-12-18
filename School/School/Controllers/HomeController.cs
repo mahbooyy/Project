@@ -198,5 +198,22 @@ namespace School.Controllers
             }
             return filePath;
         }
+        public IActionResult Profile()
+        {
+            // Здесь можно передать информацию о профиле пользователя
+            return View();
+        }
+
+        public IActionResult Cart()
+        {
+            // Логика отображения корзины
+            return View();
+        }
+
+        public IActionResult Archive()
+        {
+            // Логика отображения архива
+            return View();
+        }
     }
 }

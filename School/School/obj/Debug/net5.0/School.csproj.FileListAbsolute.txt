@@ -215,11 +215,16 @@ D:\mahboy\Project\School\School\obj\Debug\net5.0\scopedcss\bundle\School.styles.
 D:\mahboy\Project\School\School\obj\Debug\net5.0\School.TagHelpers.input.cache
 D:\mahboy\Project\School\School\obj\Debug\net5.0\School.TagHelpers.output.cache
 D:\mahboy\Project\School\School\obj\Debug\net5.0\School.RazorCoreGenerate.cache
+D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Catalog\Catalog.cshtml.g.cs
 D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Home\ContactsInformation.cshtml.g.cs
+D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Home\Profile.cshtml.g.cs
 D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Home\SiteInformation.cshtml.g.cs
 D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Index.cshtml.g.cs
 D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Privacy.cshtml.g.cs
+D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Products\Archive.cshtml.g.cs
+D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Products\Cart.cshtml.g.cs
 D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Products\ListOfProducts.cshtml.g.cs
+D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Products\Products.cshtml.g.cs
 D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Shared\Layout3.cshtml.g.cs
 D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Shared\Layout4.cshtml.g.cs
@@ -237,5 +242,3 @@ D:\mahboy\Project\School\School\obj\Debug\net5.0\School.dll
 D:\mahboy\Project\School\School\obj\Debug\net5.0\ref\School.dll
 D:\mahboy\Project\School\School\obj\Debug\net5.0\School.pdb
 D:\mahboy\Project\School\School\obj\Debug\net5.0\School.genruntimeconfig.cache
-D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Products\Products.cshtml.g.cs
-D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Catalog\Catalog.cshtml.g.cs

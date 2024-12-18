@@ -189,5 +189,30 @@
         });
 
     }
-
 });
+document.addEventListener('DOMContentLoaded', function () {
+    // Получаем элементы
+    var avatar = document.getElementById('avatar');    // Это изображение аватара
+    var menu = document.getElementById('dropdownMenu'); // Это само выпадающее меню
+
+    // Проверяем, что оба элемента существуют
+    if (avatar && menu) {
+        // Обработчик для клика по аватару
+        avatar.addEventListener('click', function (event) {
+            // Переключаем видимость меню
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';  // Скрываем меню
+            } else {
+                menu.style.display = 'block'; // Показываем меню
+            }
+        });
+
+        // Закрытие меню, если клик был вне аватара и меню
+        window.addEventListener('click', function (event) {
+            if (!avatar.contains(event.target) && !menu.contains(event.target)) {
+                menu.style.display = 'none';  // Закрываем меню
+            }
+        });
+    }
+});
+

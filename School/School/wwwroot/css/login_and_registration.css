@@ -273,3 +273,46 @@ span {
     font-size: inherit;
     width: fit-content;
 }
+.avatar-container {
+    position: relative;
+}
+
+.avatar-image {
+    cursor: pointer; /* Указатель мыши, показывающий, что на аватар можно кликать */
+    width: 40px; /* Размер аватара */
+    height: 40px;
+    border-radius: 50%;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 50px;
+    left: revert-layer;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: none;
+    width: 200px;
+    z-index: 10;
+}
+
+    .dropdown-menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .dropdown-menu li {
+        padding: 10px;
+    }
+
+        .dropdown-menu li a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+        }
+
+            .dropdown-menu li a:hover {
+                background-color: #f1f1f1;
+            }
+    
