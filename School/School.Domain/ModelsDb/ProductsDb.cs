@@ -33,6 +33,8 @@ namespace School.Domain.ModelsDb
 
         // Навигационное свойство для CategoryDb
         public CategoryDb CategoryDb { get; set; }
+
+        public ICollection<CartItemsDb> CartItemDb { get; set; }
     }
 
 }
