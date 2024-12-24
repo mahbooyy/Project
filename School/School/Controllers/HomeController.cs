@@ -187,14 +187,14 @@ namespace School.Controllers
             string filePath = "";
             if (!string.IsNullOrEmpty(imageUrl))
             {
-                using (var httpClient = new HttpClient())
-                {
-                    filePath = Path.Combine("ImageUser", $"{result.Principal.FindFirst(ClaimTypes.Email)?.Value}-avatar.jpg");
+                //using (var httpClient = new HttpClient())
+                //{
+                //    filePath = Path.Combine("Images/avatars", $"{result.Principal.FindFirst(ClaimTypes.Email)?.Value}-avatar.jpg");
 
-                    var imageBytes = await httpClient.GetByteArrayAsync(imageUrl);
+                //    var imageBytes = await httpClient.GetByteArrayAsync(imageUrl);
 
-                    await System.IO.File.WriteAllBytesAsync(Path.Combine(_appEnviroment.WebRootPath, filePath), imageBytes);
-                }
+                //    await System.IO.File.WriteAllBytesAsync(Path.Combine(_appEnviroment.WebRootPath, filePath), imageBytes);
+                //}
             }
             return filePath;
         }

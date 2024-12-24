@@ -41,7 +41,7 @@ namespace School
             services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
+            services.AddSession();
 
             services.InitializeRepositories();
             services.InitializeServices();
@@ -86,7 +86,8 @@ namespace School
             app.UseRouting();
 
             app.UseAuthentication();
-            app.UseAuthorization();     
+            app.UseAuthorization();
+            app.UseSession();
 
             app.UseEndpoints(endpoints =>
             {

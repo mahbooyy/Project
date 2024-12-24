@@ -28,7 +28,7 @@
                 <div class="dropdown-menu" id="dropdownMenu">
                     <ul>
                         <li><a href="#">Личный кабинет</a></li>
-                        <li><a href="#">Корзина</a></li>
+                        <li><a href="@Url.Action("Cart", "Cart")">Корзина</a></li>
                         <li><a href="#">Архив</a></li>
 
                         @if (User.Identity.IsAuthenticated)
@@ -39,7 +39,7 @@
                         }
                         else
                         {
-                    <button class="button" id="click-to-hide" type="button" name="button">Войти</button>
+                            <button class="button" id="click-to-hide" type="button" name="button">Войти</button>
                         }
                     </ul>
                 </div>

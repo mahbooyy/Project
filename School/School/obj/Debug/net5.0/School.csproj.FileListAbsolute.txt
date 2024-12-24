@@ -222,7 +222,6 @@ D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Home\SiteInformatio
 D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Index.cshtml.g.cs
 D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Privacy.cshtml.g.cs
 D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Products\Archive.cshtml.g.cs
-D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Products\Cart.cshtml.g.cs
 D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Products\ListOfProducts.cshtml.g.cs
 D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Products\Products.cshtml.g.cs
 D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
@@ -242,3 +241,4 @@ D:\mahboy\Project\School\School\obj\Debug\net5.0\School.dll
 D:\mahboy\Project\School\School\obj\Debug\net5.0\ref\School.dll
 D:\mahboy\Project\School\School\obj\Debug\net5.0\School.pdb
 D:\mahboy\Project\School\School\obj\Debug\net5.0\School.genruntimeconfig.cache
+D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Cart\Cart.cshtml.g.cs

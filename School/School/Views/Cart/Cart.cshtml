@@ -1,0 +1,30 @@
+﻿@model School.Domain.ViewModels.LoginAndRegistration.CartViewModel
+@{ 
+    Layout = "Layout4";
+    ViewData["Title"] = "Корзина";
+}
+<h2>Корзина</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Название</th>
+            <th>Количество</th>
+            <th>Цена</th>
+            <th>Общая стоимость</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.Quantity</td>
+                <td>@item.Price руб</td>
+                <td>@item.Total руб</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>Итоговая стоимость: @Model.TotalPrice руб</h3>

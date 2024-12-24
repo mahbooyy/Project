@@ -22,6 +22,10 @@ namespace School.Domain.ModelsDb
         [Column("Quantity")]
         public int Quantity { get; set; }
 
+        [Column("Price")]
+
+        public decimal Price { get; set; }
+
         public CartDb CartDb { get; set; }  // Связь с CartDb
         public ProductsDb ProductsDb { get; set; }  // Связь с ProductsDb
     }

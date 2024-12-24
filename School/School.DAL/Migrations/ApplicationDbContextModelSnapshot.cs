@@ -75,18 +75,19 @@ namespace School.DAL.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("Id");
 
-                    b.Property<Guid?>("CartDbId")
-                        .HasColumnType("uuid");
-
                     b.Property<Guid>("CartId")
                         .HasColumnType("uuid")
                         .HasColumnName("CartId");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric")
+                        .HasColumnName("Price");
 
                     b.Property<Guid>("ProductId")
                         .HasColumnType("uuid")
                         .HasColumnName("ProductId");
 
-                    b.Property<Guid?>("ProductsDbId")
+                    b.Property<Guid?>("ProductsDbId1")
                         .HasColumnType("uuid");
 
                     b.Property<int>("Quantity")
@@ -95,9 +96,11 @@ namespace School.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CartDbId");
+                    b.HasIndex("CartId");
 
-                    b.HasIndex("ProductsDbId");
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("ProductsDbId1");
 
                     b.ToTable("CartItems");
                 });
@@ -313,11 +316,19 @@ namespace School.DAL.Migrations
                 {
                     b.HasOne("School.Domain.ModelsDb.CartDb", "CartDb")
                         .WithMany("CartItemDb")
-                        .HasForeignKey("CartDbId");
+                        .HasForeignKey("CartId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("School.Domain.ModelsDb.ProductsDb", "ProductsDb")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("School.Domain.ModelsDb.ProductsDb", null)
                         .WithMany("CartItemDb")
-                        .HasForeignKey("ProductsDbId");
+                        .HasForeignKey("ProductsDbId1");
 
                     b.Navigation("CartDb");
 

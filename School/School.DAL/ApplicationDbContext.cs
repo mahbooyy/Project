@@ -15,6 +15,7 @@ namespace School.DAL
         public DbSet<Products> Products { get; set; }
         public DbSet<CartDb> Carts { get; set; }
         public DbSet<CartItemsDb> CartItems { get; set; }
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }

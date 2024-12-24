@@ -15,17 +15,19 @@
                 </div>
                 <table>
                     <tbody>
-
                         <tr>
                             <td><strong>@item.Price руб</strong></td>
                         </tr>
                     </tbody>
                 </table>
-                <button>Купить</button>
-                <input asp-for="@item.Id" value="@item.Id" style="display: none" />
-                <input asp-for="@item.Id_Category" value="@item.Id_Category" style="display: none" />
-
+                <!-- Форма для добавления товара в корзину -->
+                <form asp-action="AddToCart" asp-controller="Cart" method="post">
+                    <input type="hidden" name="productId" value="@item.Id" />
+                    <button type="submit" class="btn btn-primary">В корзину</button>
+                </form>
             </div>
         }
     </div>
 </div>
+
+

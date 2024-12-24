@@ -10,7 +10,7 @@ using School.DAL;
 namespace School.DAL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241209075614_test")]
+    [Migration("20241224134026_test")]
     partial class test
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -20,6 +20,92 @@ namespace School.DAL.Migrations
                 .UseIdentityByDefaultColumns()
                 .HasAnnotation("Relational:MaxIdentifierLength", 63)
                 .HasAnnotation("ProductVersion", "5.0.0");
+
+            modelBuilder.Entity("School.Domain.Models.Products", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<Guid>("Id_Category")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Opisanie")
+                        .HasColumnType("text");
+
+                    b.Property<string>("PathImage")
+                        .HasColumnType("text");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("School.Domain.ModelsDb.CartDb", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("Id");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp")
+                        .HasColumnName("createdAt");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_user");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Cart");
+                });
+
+            modelBuilder.Entity("School.Domain.ModelsDb.CartItemsDb", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("Id");
+
+                    b.Property<Guid>("CartId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("CartId");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric")
+                        .HasColumnName("Price");
+
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("ProductId");
+
+                    b.Property<Guid?>("ProductsDbId1")
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("integer")
+                        .HasColumnName("Quantity");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CartId");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("ProductsDbId1");
+
+                    b.ToTable("CartItems");
+                });
 
             modelBuilder.Entity("School.Domain.ModelsDb.CategoryDb", b =>
                 {
@@ -228,6 +314,29 @@ namespace School.DAL.Migrations
                     b.ToTable("user");
                 });
 
+            modelBuilder.Entity("School.Domain.ModelsDb.CartItemsDb", b =>
+                {
+                    b.HasOne("School.Domain.ModelsDb.CartDb", "CartDb")
+                        .WithMany("CartItemDb")
+                        .HasForeignKey("CartId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("School.Domain.ModelsDb.ProductsDb", "ProductsDb")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("School.Domain.ModelsDb.ProductsDb", null)
+                        .WithMany("CartItemDb")
+                        .HasForeignKey("ProductsDbId1");
+
+                    b.Navigation("CartDb");
+
+                    b.Navigation("ProductsDb");
+                });
+
             modelBuilder.Entity("School.Domain.ModelsDb.OrdersDb", b =>
                 {
                     b.HasOne("School.Domain.ModelsDb.UserDb", "UserDb")
@@ -271,6 +380,11 @@ namespace School.DAL.Migrations
                     b.Navigation("UserDb");
                 });
 
+            modelBuilder.Entity("School.Domain.ModelsDb.CartDb", b =>
+                {
+                    b.Navigation("CartItemDb");
+                });
+
             modelBuilder.Entity("School.Domain.ModelsDb.CategoryDb", b =>
                 {
                     b.Navigation("ProductsDb");
@@ -286,6 +400,11 @@ namespace School.DAL.Migrations
             modelBuilder.Entity("School.Domain.ModelsDb.PictureProductDb", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("School.Domain.ModelsDb.ProductsDb", b =>
+                {
+                    b.Navigation("CartItemDb");
                 });
 
             modelBuilder.Entity("School.Domain.ModelsDb.UserDb", b =>

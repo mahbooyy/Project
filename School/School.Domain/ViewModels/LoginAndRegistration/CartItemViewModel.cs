@@ -9,12 +9,12 @@ namespace School.Domain.ViewModels.LoginAndRegistration
 {
     public class CartItemViewModel
     {
-        public Guid Id { get; set; }
-        public Guid CartId { get; set; }
         public Guid ProductId { get; set; }
-        public int Quantity { get; set; }
+        public string ProductName { get; set; } // Название продукта
+        public int Quantity { get; set; }       // Количество
+        public decimal Price { get; set; }     // Цена за единицу
+        public decimal Total => Quantity * Price; // Общая стоимость
 
-        public Cart Cart { get; set; }
-        public Products Products { get; set; }
+        public Guid Id { get; set; }
     }
 }

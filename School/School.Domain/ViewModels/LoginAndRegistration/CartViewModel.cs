@@ -11,7 +11,10 @@ namespace School.Domain.ViewModels.LoginAndRegistration
         public Guid Id { get; set; }
         public Guid UserId { get; set; }
         public DateTime CreatedAt { get; set; }
-        public List<CartItemViewModel> Items { get; set; } = new List<CartItemViewModel>();
-    }
 
+        public List<CartItemViewModel> Items { get; set; } = new List<CartItemViewModel>();
+
+        public decimal TotalPrice => Items.Sum(item => item.Total);
+    }
 }
+
