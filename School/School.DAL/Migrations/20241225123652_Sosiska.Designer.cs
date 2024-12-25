@@ -10,8 +10,8 @@ using School.DAL;
 namespace School.DAL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241224134026_test")]
-    partial class test
+    [Migration("20241225123652_Sosiska")]
+    partial class Sosiska
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

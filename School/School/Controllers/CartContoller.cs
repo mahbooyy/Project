@@ -5,6 +5,8 @@ using School.Domain.ViewModels.LoginAndRegistration;
 using System;
 using System.Linq;
 using System.Security.Claims;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace School.Controllers
 {
@@ -134,6 +136,53 @@ namespace School.Controllers
 
             return Guid.Parse(userIdClaim.Value);
         }
+        [HttpPost]
+        public IActionResult UpdateQuantity([FromBody] UpdateQuantityViewModel model)
+        {
+            if (model == null || model.CartItemId == Guid.Empty || model.Quantity < 1)
+            {
+                return BadRequest(new { success = false, message = "Некорректные данные." });
+            }
+
+            var cartItem = _context.CartItems.FirstOrDefault(ci => ci.Id == model.CartItemId);
+            if (cartItem == null)
+            {
+                return NotFound(new { success = false, message = "Товар в корзине не найден." });
+            }
+
+            cartItem.Quantity = model.Quantity;
+            _context.SaveChanges();
+
+            return Ok(new { success = true });
+        }
+        [HttpPost]
+        public IActionResult DeleteItem([FromBody] DeleteItemViewModel model)
+        {
+            if (model == null || model.CartItemId == Guid.Empty)
+            {
+                return BadRequest(new { success = false, message = "Некорректные данные." });
+            }
+
+            var cartItem = _context.CartItems.FirstOrDefault(ci => ci.Id == model.CartItemId);
+            if (cartItem == null)
+            {
+                return NotFound(new { success = false, message = "Товар в корзине не найден." });
+            }
+
+            var cartId = cartItem.CartId;
+
+            // Удаление товара из базы данных
+            _context.CartItems.Remove(cartItem);
+            _context.SaveChanges();
+
+            // Пересчитать общую стоимость корзины
+            var totalPrice = _context.CartItems
+                .Where(ci => ci.CartId == cartId)
+                .Sum(ci => ci.Quantity * ci.Price);
+
+            return Json(new { success = true, totalPrice });
+        }
+
 
     }
 }

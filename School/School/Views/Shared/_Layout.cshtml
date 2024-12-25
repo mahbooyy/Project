@@ -29,7 +29,7 @@
                     <ul>
                         <li><a href="#">Личный кабинет</a></li>
                         <li><a href="@Url.Action("Cart", "Cart")">Корзина</a></li>
-                        <li><a href="#">Архив</a></li>
+                        <li><a href="@Url.Action("Archive","Archive")">Архив</a></li>
 
                         @if (User.Identity.IsAuthenticated)
                         {

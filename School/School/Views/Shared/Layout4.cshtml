@@ -16,8 +16,37 @@
     <div id="header-top">
         <div id="hamburger" class="icon">&#9776;</div>
         <div class="logo">Карандаш</div>
-        <div class="button-header">
+    <div class="nav-item" style="display: flex; justify-content: flex-end; align-items: center;">
+            <div class="avatar-container">
+                <!-- Аватар пользователя -->
+                <img src="/css/Images/avatars/default.png"
+                     alt="Avatar"
+                     class="avatar-image"
+                     id="avatar" />
+
+                <!-- Выпадающее меню -->
+                <div class="dropdown-menu" id="dropdownMenu">
+                    <ul>
+                        <li><a href="#">Личный кабинет</a></li>
+                        <li><a href="@Url.Action("SiteInformation", "Home")">Главная</a></li>
+                        <li><a href="@Url.Action("Cart", "Cart")">Корзина</a></li>
+                        <li><a href="#">Архив</a></li>
+
+                        @if (User.Identity.IsAuthenticated)
+                        {   
+                            <button class="button" type="button" name="button" onclick="window.location.href = '@Url.Action("Logout", "Home")'">
+                                Выйти
+                            </button>
+                        }
+                        else
+                        {
+                            <button class="button" id="click-to-hide" type="button" name="button">Войти</button>
+                        }
+                    </ul>
+                </div>
+            </div>
         </div>
+
     </div>
     <div id="side-menu" class="side-menu">
         <div>

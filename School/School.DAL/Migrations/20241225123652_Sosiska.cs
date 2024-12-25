@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace School.DAL.Migrations
 {
-    public partial class test : Migration
+    public partial class Sosiska : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

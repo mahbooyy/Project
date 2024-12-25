@@ -1,8 +1,10 @@
 ﻿@model School.Domain.ViewModels.LoginAndRegistration.CartViewModel
-@{ 
+
+@{
     Layout = "Layout4";
     ViewData["Title"] = "Корзина";
 }
+
 <h2>Корзина</h2>
 
 <table class="table">
@@ -19,12 +21,18 @@
         {
             <tr>
                 <td>@item.ProductName</td>
-                <td>@item.Quantity</td>
+                <td>
+                    <button class="btn btn-sm btn-secondary" onclick="updateQuantity('@item.Id', -1)">-</button>
+                    <p id="quantity-@item.Id">@item.Quantity</p>
+                    <button class="btn btn-sm btn-secondary" onclick="updateQuantity('@item.Id', 1)">+</button>
+                </td>
                 <td>@item.Price руб</td>
-                <td>@item.Total руб</td>
+                <td id="total-@item.Id">@item.Total руб</td>
+                <td>
+                    <button class="btn btn-sm btn-danger" onclick="deleteItem('@item.Id')">Удалить</button>
+                </td>
             </tr>
         }
     </tbody>
 </table>
-
-<h3>Итоговая стоимость: @Model.TotalPrice руб</h3>
+<h3><button>Оплатить</button></h3>

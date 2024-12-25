@@ -149,3 +149,14 @@
     height: 100%;
     z-index: 900;
 }
+
+.btn-heart {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 20px;
+}
+
+    .btn-heart:hover {
+        color: darkred;
+    }
