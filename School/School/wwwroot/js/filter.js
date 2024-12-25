@@ -31,3 +31,18 @@
         }
     });
 });
+document.getElementById("searchInput").addEventListener("input", function () {
+    var searchQuery = this.value.toLowerCase();
+    var products = document.querySelectorAll(".tour-item");
+
+    products.forEach(function (product) {
+        var productName = product.getAttribute("data-name").toLowerCase();
+        var productDescription = product.getAttribute("data-description").toLowerCase();
+
+        if (productName.includes(searchQuery) || productDescription.includes(searchQuery)) {
+            product.style.display = "block"; // Показываем товар
+        } else {
+            product.style.display = "none"; // Скрываем товар
+        }
+    });
+}); 

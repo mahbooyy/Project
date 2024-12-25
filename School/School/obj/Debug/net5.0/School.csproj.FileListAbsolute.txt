@@ -169,7 +169,6 @@ D:\mahboy\Project\School\School\bin\Debug\net5.0\School.deps.json
 D:\mahboy\Project\School\School\bin\Debug\net5.0\School.runtimeconfig.json
 D:\mahboy\Project\School\School\bin\Debug\net5.0\School.runtimeconfig.dev.json
 D:\mahboy\Project\School\School\bin\Debug\net5.0\School.dll
-D:\mahboy\Project\School\School\bin\Debug\net5.0\ref\School.dll
 D:\mahboy\Project\School\School\bin\Debug\net5.0\School.pdb
 D:\mahboy\Project\School\School\bin\Debug\net5.0\School.Views.dll
 D:\mahboy\Project\School\School\bin\Debug\net5.0\School.Views.pdb
@@ -210,7 +209,6 @@ D:\mahboy\Project\School\School\obj\Debug\net5.0\School.MvcApplicationPartsAssem
 D:\mahboy\Project\School\School\obj\Debug\net5.0\School.RazorAssemblyInfo.cache
 D:\mahboy\Project\School\School\obj\Debug\net5.0\School.RazorAssemblyInfo.cs
 D:\mahboy\Project\School\School\obj\Debug\net5.0\staticwebassets\School.StaticWebAssets.Manifest.cache
-D:\mahboy\Project\School\School\obj\Debug\net5.0\staticwebassets\School.StaticWebAssets.xml
 D:\mahboy\Project\School\School\obj\Debug\net5.0\scopedcss\bundle\School.styles.css
 D:\mahboy\Project\School\School\obj\Debug\net5.0\School.TagHelpers.input.cache
 D:\mahboy\Project\School\School\obj\Debug\net5.0\School.TagHelpers.output.cache
@@ -235,10 +233,19 @@ D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g
 D:\mahboy\Project\School\School\obj\Debug\net5.0\School.RazorTargetAssemblyInfo.cache
 D:\mahboy\Project\School\School\obj\Debug\net5.0\School.RazorTargetAssemblyInfo.cs
 D:\mahboy\Project\School\School\obj\Debug\net5.0\School.Views.pdb
-D:\mahboy\Project\School\School\obj\Debug\net5.0\School.csproj.CopyComplete
 D:\mahboy\Project\School\School\obj\Debug\net5.0\School.dll
 D:\mahboy\Project\School\School\obj\Debug\net5.0\ref\School.dll
 D:\mahboy\Project\School\School\obj\Debug\net5.0\School.pdb
 D:\mahboy\Project\School\School\obj\Debug\net5.0\School.genruntimeconfig.cache
 D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Cart\Cart.cshtml.g.cs
 D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\Archive\Archive.cshtml.g.cs
+D:\mahboy\Project\School\School\obj\Debug\net5.0\School.sourcelink.json
+D:\mahboy\Project\School\School\obj\Debug\net5.0\staticwebassets\School.StaticWebAssets.Pack.cache
+D:\mahboy\Project\School\School\obj\Debug\net5.0\staticwebassets\msbuild.School.Microsoft.AspNetCore.StaticWebAssets.props
+D:\mahboy\Project\School\School\obj\Debug\net5.0\staticwebassets\msbuild.build.School.props
+D:\mahboy\Project\School\School\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.School.props
+D:\mahboy\Project\School\School\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.School.props
+D:\mahboy\Project\School\School\obj\Debug\net5.0\School.csproj.Up2Date
+D:\mahboy\Project\School\School\obj\Debug\net5.0\refint\School.dll
+D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\UserProfile\Edit.cshtml.g.cs
+D:\mahboy\Project\School\School\obj\Debug\net5.0\Razor\Views\UserProfile\Index.cshtml.g.cs

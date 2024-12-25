@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="~/css/media_style.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/products.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/filter.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/UserProfile.css" asp-append-version="true" />
 </head>
 <body>
     <div id="header-top">
@@ -52,7 +53,7 @@
         <div>
             <ul>
                 <li><a href="/Home/SiteInformation">Главная</a></li>
-                <li><a href="/Contacts/ContactsInformation">Контакты</a></li>
+                <li><a href="@Url.Action("ContactsInformation", "Home")">Контакты</a></li>
                 <li><a href="/Catalog/Catalog">Категории</a></li>
             </ul>
         </div>
@@ -61,7 +62,7 @@
         <div class="menu">
             <ul>
                 <li><a href="/Home/SiteInformation">Главная</a></li>
-                <li><a href="/Contacts/ContactsInformation">Контакты</a></li>
+                <li><a href="@Url.Action("ContactsInformation", "Home")">Контакты</a></li>
                 <li><a href="/Catalog/Catalog">Категории</a></li>
             </ul>
         </div>
@@ -85,7 +86,7 @@
         <div class="footer-menu">
             <ul>
                 <li><a href="/Home/SiteInformation">Главная</a></li>
-                <li><a href="/Contacts/ContactsInformation">Контакты</a></li>
+                    <li><a href="@Url.Action("ContactsInformation", "Home")">Контакты</a></li>
                 <li><a href="/Catalog/Catalog">Категории</a></li>
             </ul>
         </div>

@@ -1,0 +1,30 @@
+﻿@model School.Domain.Models.UserProfile
+
+@{
+    Layout = "Layout4";
+    ViewData["Title"] = "Профиль";
+}
+<h1>Редактировать профиль</h1>
+<form asp-action="Edit" method="post">
+    <div>
+        <label for="FirstName">Имя:</label>
+        <input asp-for="FirstName" />
+    </div>
+    <div>
+        <label for="LastName">Фамилия:</label>
+        <input asp-for="LastName" />
+    </div>
+    <div>
+        <label for="Email">Email:</label>
+        <input asp-for="Email" />
+    </div>
+    <div>
+        <label for="DateOfBirth">Дата рождения:</label>
+        <input asp-for="DateOfBirth" type="date" />
+    </div>
+    <div>
+        <label for="Bio">О себе:</label>
+        <textarea asp-for="Bio"></textarea>
+    </div>
+    <button type="submit">Сохранить</button>
+</form>

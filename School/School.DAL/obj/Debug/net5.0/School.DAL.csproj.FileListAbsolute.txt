@@ -38,7 +38,6 @@ D:\mahboy\Project\School\School.DAL\bin\Debug\net5.0\School.DAL.deps.json
 D:\mahboy\Project\School\School.DAL\bin\Debug\net5.0\School.DAL.runtimeconfig.json
 D:\mahboy\Project\School\School.DAL\bin\Debug\net5.0\School.DAL.runtimeconfig.dev.json
 D:\mahboy\Project\School\School.DAL\bin\Debug\net5.0\School.DAL.dll
-D:\mahboy\Project\School\School.DAL\bin\Debug\net5.0\ref\School.DAL.dll
 D:\mahboy\Project\School\School.DAL\bin\Debug\net5.0\School.DAL.pdb
 D:\mahboy\Project\School\School.DAL\bin\Debug\net5.0\School.Domain.dll
 D:\mahboy\Project\School\School.DAL\bin\Debug\net5.0\School.Domain.pdb
@@ -47,8 +46,10 @@ D:\mahboy\Project\School\School.DAL\obj\Debug\net5.0\School.DAL.GeneratedMSBuild
 D:\mahboy\Project\School\School.DAL\obj\Debug\net5.0\School.DAL.AssemblyInfoInputs.cache
 D:\mahboy\Project\School\School.DAL\obj\Debug\net5.0\School.DAL.AssemblyInfo.cs
 D:\mahboy\Project\School\School.DAL\obj\Debug\net5.0\School.DAL.csproj.CoreCompileInputs.cache
-D:\mahboy\Project\School\School.DAL\obj\Debug\net5.0\School.DAL.csproj.CopyComplete
 D:\mahboy\Project\School\School.DAL\obj\Debug\net5.0\School.DAL.dll
 D:\mahboy\Project\School\School.DAL\obj\Debug\net5.0\ref\School.DAL.dll
 D:\mahboy\Project\School\School.DAL\obj\Debug\net5.0\School.DAL.pdb
 D:\mahboy\Project\School\School.DAL\obj\Debug\net5.0\School.DAL.genruntimeconfig.cache
+D:\mahboy\Project\School\School.DAL\obj\Debug\net5.0\School.DAL.sourcelink.json
+D:\mahboy\Project\School\School.DAL\obj\Debug\net5.0\School.DAL.csproj.Up2Date
+D:\mahboy\Project\School\School.DAL\obj\Debug\net5.0\refint\School.DAL.dll

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="~/css/media_style.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/products.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/filter.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/UserProfile.css" asp-append-version="true" />
 </head>
 <body>
     <div id="header-top">
@@ -24,25 +25,25 @@
                      class="avatar-image"
                      id="avatar" />
 
-                <!-- Выпадающее меню -->
-                <div class="dropdown-menu" id="dropdownMenu">
-                    <ul>
-                        <li><a href="#">Личный кабинет</a></li>
-                        <li><a href="@Url.Action("Cart", "Cart")">Корзина</a></li>
-                        <li><a href="@Url.Action("Archive","Archive")">Архив</a></li>
+                        <!-- Выпадающее меню -->
+                        <div class="dropdown-menu" id="dropdownMenu">
+                            <ul>
+                                <li><a href="@Url.Action("Index", "UserProfile")">Личный кабинет</a></li>
+                                <li><a href="@Url.Action("Cart", "Cart")">Корзина</a></li>
+                                <li><a href="@Url.Action("Archive","Archive")">Архив</a></li>
 
-                        @if (User.Identity.IsAuthenticated)
-                        {
-                            <button class="button" type="button" name="button" onclick="window.location.href = '@Url.Action("Logout", "Home")'">
-                                Выйти
-                            </button>
-                        }
-                        else
-                        {
-                            <button class="button" id="click-to-hide" type="button" name="button">Войти</button>
-                        }
-                    </ul>
-                </div>
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <button class="button" type="button" name="button" onclick="window.location.href = '@Url.Action("Logout", "Home")'">
+                                        Выйти
+                                    </button>
+                                }
+                                else
+                                {
+                                    <button class="button" id="click-to-hide" type="button" name="button">Войти</button>
+                                }
+                            </ul>
+                        </div>
             </div>
         </div>
     </div>

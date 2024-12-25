@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("School")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18d7ebcf8b2dfab868ae938dd3641c6fd70824b7")]
 [assembly: System.Reflection.AssemblyTitleAttribute("School.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 

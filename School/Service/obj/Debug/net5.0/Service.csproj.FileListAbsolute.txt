@@ -42,7 +42,6 @@ D:\mahboy\Project\School\Service\bin\Debug\net5.0\Service.deps.json
 D:\mahboy\Project\School\Service\bin\Debug\net5.0\Service.runtimeconfig.json
 D:\mahboy\Project\School\Service\bin\Debug\net5.0\Service.runtimeconfig.dev.json
 D:\mahboy\Project\School\Service\bin\Debug\net5.0\Service.dll
-D:\mahboy\Project\School\Service\bin\Debug\net5.0\ref\Service.dll
 D:\mahboy\Project\School\Service\bin\Debug\net5.0\Service.pdb
 D:\mahboy\Project\School\Service\bin\Debug\net5.0\School.DAL.dll
 D:\mahboy\Project\School\Service\bin\Debug\net5.0\School.Domain.dll
@@ -53,8 +52,10 @@ D:\mahboy\Project\School\Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditor
 D:\mahboy\Project\School\Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
 D:\mahboy\Project\School\Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
 D:\mahboy\Project\School\Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
-D:\mahboy\Project\School\Service\obj\Debug\net5.0\Service.csproj.CopyComplete
 D:\mahboy\Project\School\Service\obj\Debug\net5.0\Service.dll
 D:\mahboy\Project\School\Service\obj\Debug\net5.0\ref\Service.dll
 D:\mahboy\Project\School\Service\obj\Debug\net5.0\Service.pdb
 D:\mahboy\Project\School\Service\obj\Debug\net5.0\Service.genruntimeconfig.cache
+D:\mahboy\Project\School\Service\obj\Debug\net5.0\Service.sourcelink.json
+D:\mahboy\Project\School\Service\obj\Debug\net5.0\Service.csproj.Up2Date
+D:\mahboy\Project\School\Service\obj\Debug\net5.0\refint\Service.dll

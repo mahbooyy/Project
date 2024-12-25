@@ -1,47 +1,44 @@
 ﻿@model School.Domain.ViewModels.LoginAndRegistration.CatalogViewModel
 @{
     Layout = "Layout3";
-    ViewData["Title"] = "Контакты";
+    ViewData["Title"] = "Каталог товаров";
 }
+
 <div class="container-products">
-    <div class="list-products">
+    <!-- Форма поиска -->
+                                            
+
+    <div class="list-products" id="productList">
         @foreach (var item in Model.Products)
         {
-        <div class="tour-item">
-            <img src="@item.PathImage" alt="Товар" class="item-tour-img" />
-            <div class="item-info">
-                <h2>@item.Name</h2>
-                <p>@item.Opisanie</p>
-            </div>
-            <table>
-                <tbody>
-                    <tr>
-                        <td><strong>@item.Price руб</strong></td>
-                    </tr>
-                </tbody>
-            </table>
+                <div class="tour-item" data-name="@item.Name" data-description="@item.Opisanie">
+                    <img src="@item.PathImage" alt="Товар" class="item-tour-img" />
+                    <div class="item-info">
+                        <h2>@item.Name</h2>
+                        <p>@item.Opisanie</p>
+                    </div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><strong>@item.Price руб</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
 
-            <form asp-action="AddToArchive" asp-controller="Archive" method="post">
-                <input type="hidden" name="productId" value="@item.Id" />
-                <input type="hidden" name="productName" value="@item.Name" />
-                <input type="hidden" name="price" value="@item.Price" />
-                <input type="hidden" name="quantity" value="1" /> <!-- Или передайте нужное количество -->
-                <button type="submit" class="btn btn-heart">Архив</button>
-            </form>
+                    <form asp-action="AddToArchive" asp-controller="Archive" method="post">
+                        <input type="hidden" name="productId" value="@item.Id" />
+                        <button type="submit" class="btn btn-heart">Архив</button>
+                    </form>
 
-            @if (User.Identity.IsAuthenticated)
-            {
-                <!-- Форма для добавления товара в корзину -->
-                <form asp-action="AddToCart" asp-controller="Cart" method="post">
-                    <input type="hidden" name="productId" value="@item.Id" />
-                    <button type="submit" class="btn btn-primary">В корзину</button>
-                    <button type="submit" class="btn btn-primary">Купить</button>
-                </form>
-            }
-
-        </div>
+                @if (User.Identity.IsAuthenticated)
+                {
+                            <form asp-action="AddToCart" asp-controller="Cart" method="post">
+                                <input type="hidden" name="productId" value="@item.Id" />
+                                <button type="submit" class="btn btn-primary">В корзину</button>
+                                <button type="submit" class="btn btn-primary">Купить</button>
+                            </form>
+                }
+                </div>
         }
     </div>
 </div>
-
-
